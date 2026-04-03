@@ -1,9 +1,10 @@
-import Portfolio from './components/Portfolio'
+import React from 'react'
+
 const App = () => {
   return (
-   <>
-    <Portfolio/>
-   </>
+    <div className='w-full min-h-screen flex justify-center items-center bg-foreground '>
+      <p className='text-4xl font-mono text-background'>React + Tailwind + Shadcn Template {"(Javascript Version)"} </p>
+      </div>
   )
 }
 
